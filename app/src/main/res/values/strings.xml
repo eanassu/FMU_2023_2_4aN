@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TesteSoma</string>
+    <string name="txt_somar">Somar</string>
+    <string name="txt_janela">Janela</string>
+    <string name="txt_calcgorjeta">CalcGorjeta</string>
+    <string name="txt_valor">Valor:</string>
+    <string name="txt_gorjeta">Gorjeta:</string>
+    <string name="txt_total">Total:</string>
 </resources>
