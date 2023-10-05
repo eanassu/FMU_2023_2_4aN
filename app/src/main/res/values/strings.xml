@@ -6,4 +6,11 @@
     <string name="txt_valor">Valor:</string>
     <string name="txt_gorjeta">Gorjeta:</string>
     <string name="txt_total">Total:</string>
+    <string name="txt_IMC">IMC</string>
+    <string name="txt_magro">magro</string>
+    <string name="txt_normal">Normal</string>
+    <string name="txt_sobrepeso">sobrepeso</string>
+    <string name="txt_obeso">obeso</string>
+    <string name="txt_pesomax">Peso máximo:</string>
+    <string name="txt_pesomin">Peso mínimo:</string>
 </resources>

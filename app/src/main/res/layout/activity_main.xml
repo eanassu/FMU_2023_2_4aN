@@ -71,4 +71,15 @@
         android:text="@string/txt_calcgorjeta"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:onClick="abrirImc"
+        android:text="Button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        tools:text="@string/txt_IMC" />
 </androidx.constraintlayout.widget.ConstraintLayout>

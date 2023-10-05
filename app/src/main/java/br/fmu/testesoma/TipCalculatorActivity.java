@@ -51,9 +51,25 @@ public class TipCalculatorActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {}
         });
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                porcentagem = progress/100.0;
+                atualizarValores();
+            }
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {}
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {}
+        });
     }
     private void atualizarValores() {
         textViewValor.setText(currencyFormat.format(valor));
+        textViewPct.setText(percentFormat.format(porcentagem));
+        gorjeta = valor * porcentagem;
+        total = valor + gorjeta;
+        textViewGorjeta.setText(currencyFormat.format(gorjeta));
+        textViewTotal.setText(currencyFormat.format(total));
     }
 }
 
