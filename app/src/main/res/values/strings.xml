@@ -13,4 +13,5 @@
     <string name="txt_obeso">obeso</string>
     <string name="txt_pesomax">Peso máximo:</string>
     <string name="txt_pesomin">Peso mínimo:</string>
+    <string name="txt_desenho">Desenho</string>
 </resources>

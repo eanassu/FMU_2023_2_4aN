@@ -78,8 +78,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:onClick="abrirImc"
-        android:text="Button"
+        android:text="@string/txt_IMC"
         app:layout_constraintBaseline_toBaselineOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button3"
         tools:text="@string/txt_IMC" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirDesenho"
+        android:text="@string/txt_desenho"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="437dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
