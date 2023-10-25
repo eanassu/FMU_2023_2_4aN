@@ -14,4 +14,10 @@
     <string name="txt_pesomax">Peso máximo:</string>
     <string name="txt_pesomin">Peso mínimo:</string>
     <string name="txt_desenho">Desenho</string>
+    <string name="txt_re">RE:</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="txt_dataadmissao">Data de Admissão</string>
+    <string name="txt_salario">Salário:</string>
+    <string name="txt_cargo">Cargo:</string>
+    <string name="txt_cadastrar">Cadastrar</string>
 </resources>
