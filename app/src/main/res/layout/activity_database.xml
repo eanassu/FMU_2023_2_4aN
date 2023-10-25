@@ -122,4 +122,13 @@
         android:inputType="text"
         app:layout_constraintStart_toStartOf="@+id/editTextSalario"
         app:layout_constraintTop_toBottomOf="@+id/editTextSalario" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="listar"
+        android:text="@string/txt_lista"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="331dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

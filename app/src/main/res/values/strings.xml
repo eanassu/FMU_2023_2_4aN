@@ -20,4 +20,5 @@
     <string name="txt_salario">Salário:</string>
     <string name="txt_cargo">Cargo:</string>
     <string name="txt_cadastrar">Cadastrar</string>
+    <string name="txt_lista">Lista</string>
 </resources>
